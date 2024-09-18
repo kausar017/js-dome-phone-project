@@ -15,10 +15,41 @@
         <div class="mockup-phone border-primary">
             <div class="camera"></div>
             <div class="display">
-                <div class="artboard artboard-demo phone-1">Hi.</div>
-            </div>
+                <div class="artboard artboard-demo phone-1">
+                    <div class="hero bg-base-200 min-h-screen">
+                        <div class="hero-content flex-col">
+                            <!-- login input -->
+                            <div class="card bg-base-100 w-full max-w-sm shrink-0">
+                                <form class="card-body">
+                                    <div class="form-control">
+                                        <label class="label">
+                                            <span class="label-text">Mobile Number</span>
+                                        </label>
+                                        <input type="number" placeholder="Enter your number" class="input input-bordered" autocomplete="off" required />
+                                    </div>
+                                    <div class="form-control">
+                                        <label class="label">
+                                            <span class="label-text">4 Digit Pin</span>
+                                        </label>
+                                        <input type="pin" placeholder="Enter 4 Digit Pin" class="input input-bordered"
+                                            required />
+                                        <label class="label">
+                                            <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
+                                        </label>
+                                    </div>
+                                    <div class="form-control mt-6">
+                                        <button id="login-btn" class="btn btn-primary rounded-full bg-[#0874F2]">Login</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
         </div>
     </main>
+
+    <script src="./js/login.js"></script>
 </body>
 
 </html>
